@@ -47,6 +47,7 @@ brew 'yarn'
 
 # Apps
 #cask 'dbngin'
+cask 'iterm2'
 cask 'figma'
 cask 'firefox'
 cask 'github'
