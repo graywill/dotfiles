@@ -47,7 +47,9 @@ brew 'yarn'
 
 # Apps
 #cask 'dbngin'
+cask 'azure-data-studio'
 cask 'iterm2'
+cask 'evernote'
 cask 'figma'
 cask 'firefox'
 cask 'github'
@@ -65,6 +67,7 @@ cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'visual-studio-code'
+cask 'vnc-viewer'
 cask 'zoom'
 
 # Quicklook
