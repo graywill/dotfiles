@@ -39,6 +39,7 @@ After backing up your old Mac you may now follow these install instructions to s
 
     ```zsh
     git clone --recursive git@github.com:graywill/dotfiles.git ~/.dotfiles
+    export DOTFILES=~/.dotfiles
     ```
 
 4. Run the installation with:
