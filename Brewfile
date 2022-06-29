@@ -49,8 +49,10 @@ brew 'yarn'
 #cask 'dbngin'
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
+cask 'alfred'
 cask 'arduino'
 cask 'azure-data-studio'
+cask 'dbeaver-community'
 cask 'iterm2'
 cask 'evernote'
 cask 'figma'
@@ -90,6 +92,7 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
+mas "Cleaner-App", id: 1013897218
 #mas 'Byword', id: 420212497
 #mas 'Giphy Capture', id: 668208984
 #mas 'Spark', id: 1176895641
