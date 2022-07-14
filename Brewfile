@@ -22,7 +22,6 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Spatie Medialibrary
@@ -45,14 +44,18 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 
-# Apps
-#cask 'dbngin'
+# Apps requiring Rosetta on Apple Silicon
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
+cask 'temurin8'
+
+# Apps
+cask 'dbngin'
 cask 'alfred'
 cask 'arduino'
 cask 'azure-data-studio'
 cask 'dbeaver-community'
+cask 'dropbox'
 cask 'iterm2'
 cask 'evernote'
 cask 'figma'
@@ -69,10 +72,9 @@ cask 'phpstorm'
 cask 'screenflow'
 cask 'skype'
 cask 'tableplus'
-cask 'temurin8'
 cask 'tailscale'
 cask 'the-unarchiver'
-cask 'tinkerwell'
+#cask 'tinkerwell'
 cask 'transmit'
 cask 'visual-studio-code'
 cask 'vnc-viewer'
@@ -92,7 +94,7 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas "Cleaner-App", id: 1013897218
+#mas "Cleaner-App", id: 1013897218
 #mas 'Byword', id: 420212497
 #mas 'Giphy Capture', id: 668208984
 #mas 'Spark', id: 1176895641
