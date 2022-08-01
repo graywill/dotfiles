@@ -78,6 +78,7 @@ cask 'the-unarchiver'
 cask 'transmit'
 cask 'visual-studio-code'
 cask 'vnc-viewer'
+cask 'vlc'
 cask 'zoom'
 
 # Quicklook
